@@ -6,6 +6,44 @@ const asyncHandler = (requestHandler) => {
 
 export { asyncHandler };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const asyncHanler = (fn) => async (req, res, next) => {
 //   try {
 //     await fn(req, res, next);
