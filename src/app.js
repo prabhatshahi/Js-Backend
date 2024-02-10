@@ -27,5 +27,5 @@ import userRouter from "./routes/user.routes.js";
 
 app.use("/api/v1/users", userRouter)
 
-//!htts:loclahost:8000/api/v1/users/register
+//htts:loclahost:8000/api/v1/users/register
 export { app };
