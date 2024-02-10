@@ -46,7 +46,7 @@ const userSchema = new Schema(
   }
 );
 
-const bcrypt = require("bcrypt");
+// const bcrypt = require("bcrypt");
 
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) return next();
